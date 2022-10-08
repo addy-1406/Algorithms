@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// ALL the below functions must be present in heapsort program 
+
 void heapify(int arr[], int n, int i){
     int largest = i;
     int left = 2*i;
@@ -37,6 +39,7 @@ void heapSort(int arr[], int n){
 }
 
 int main(){
+    //Driver CODE
     int n;
     cin >> n;
     int arr[n+1];
